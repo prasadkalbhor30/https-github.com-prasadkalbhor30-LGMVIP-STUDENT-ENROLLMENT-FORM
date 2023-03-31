@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ENROLLMENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>STUDENT ENROLLMENT FORM</h1>
+        </div>
+        <div class="main">
+            <div class="left">
+                <form class="myForm">
+
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Name :</label>
+                        </div>
+                        <div class="inp">
+                            <input required name="name" type="text" id="name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Email : </label>
+                        </div>
+                        <div class="inp">
+                            <input required type="email" id="email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Website : </label>
+                        </div>
+                        <div class="inp">
+                            <input required type="text" id="website">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Image Link : </label>
+                        </div>
+                        <div class="inp">
+                            <input required type="text" id="image">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Gender : </label>
+                        </div>
+                        <div class="inp-rad">
+                            <input required name="gender" value="male" id="male" type="radio">
+                            <label class="form" for="male">Male</label>
+                            <input required name="gender" value="female" id="female" type="radio">
+                            <label class="form" for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="heading">
+                            <label for="name">Skills :</label>
+                        </div>
+                        <div class="inp">
+                            <input id="html" value="HTML" type="checkbox">
+                            <label class="form" for="html">HTML</label>
+                            <input id="css" value="CSS" type="checkbox">
+                            <label class="form" for="css">CSS</label>
+                            <input id="javascript" value="JAVASCRIPT" type="checkbox">
+                            <label class="form" for="javascript">JAVASCRIPT</label>
+                        </div>
+
+                    </div>
+                    <div class="last">
+                        <input class="submit" type="submit" value="Submit">
+
+                        <button class="clear">Clear</button>
+
+                    </div>
+                </form>`
+
+            </div>
+            <div class="middle"></div>
+            <div class="right">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Enrolled Students</h2>
+                    </div>
+
+
+                    <div class="card-body">
+                        <div class="image">
+                            <img src="profile.jpg" alt="userimg">
+                        </div>
+                        <div class="details">
+                            <div class="detail-row">
+                                <div class="detail-value">John Doe</div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-value">johndoe@example.com</div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-value">johndoe.com</div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-value">https://example.com/image.jpg</div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-value">Male</div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-value">HTML, CSS, JavaScript</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="main.js"></script>
+
+
+</body>
+
+</html>
